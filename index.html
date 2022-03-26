@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+</head>
+<body>
+
+    <div class="page">
+        <section class="container">
+
+            <nav class="navbar">
+                <div class="navbar__content">
+                    <ul>
+                        <li><div class="circle blue"></div></li>
+                        <li><div class="circle green"></div></li>
+                        <li><div class="circle green"></div></li>
+                        <li><p>Pokedex</p></li>
+                    </ul>
+                </div>
+            </nav>
+
+                <section class="left-pokedex">
+                    <div class="search_poke">
+                        <input class="in_poke" type="text" placeholder="Nombre del pokémon">
+                        <button class="btn_search">Buscar</button>
+                    </div>
+                    <div class="screen">
+                        <img id="pokeimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" alt="">
+                    </div>
+                </section>
+        
+                <section class="right-pokedex">
+                    <div class="poke-info">
+                        <h1 class="namePoke">Pokemon</h1>
+                        <h1 class="numberPoke">Number</h1>
+                    </div>
+        
+                    <div class="type-pokemon">
+                        <div class="divtype1">
+                            <p id="type1">type1</p>
+                        </div>
+                        <div class="divtype2">
+                            <p id="type2">type2</p>
+                        </div>
+                    </div>
+        
+                    <div class="stats">
+                        <div class="pokestat">
+                            <h3>HP</h3>
+                            <p id="hp"></p>
+                        </div>
+                        <div class="pokestat">
+                            <h3>Attack</h3>
+                            <p id="attack"></p>
+                        </div>
+                        <div class="pokestat">
+                            <h3>Defense</h3>
+                            <p id="defense"></p>
+                        </div>
+                        <div class="pokestat">
+                            <h3>Special Attack</h3>
+                            <p id="spa"></p>
+                        </div>
+                        <div class="pokestat">
+                            <h3>Special Defense</h3>
+                            <p id="spd"></p>
+                        </div>
+                        <div class="pokestat">
+                            <h3>Speed</h3>
+                            <p id="speed"></p>
+                        </div>
+                    </div>
+                    <div class="moves">
+                        <h2>Moves</h2>
+                        <div class="moves-section">
+                        </div>
+                    </div>
+                </section>
+
+            <div class="center">
+            </div>
+
+            <div class="right-section">
+                <h1>Pokémon Info</h1>
+            </div>
+        </section>
+    </div>
+
+</body>
+<footer><script src="./main.js"></script></footer>
+</html>
